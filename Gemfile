@@ -4,4 +4,6 @@ gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.8"
 gem "just-the-docs", "~> 0.10.0"
 
+gem "jekyll-remote-theme"
+
 

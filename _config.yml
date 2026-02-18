@@ -1,10 +1,13 @@
 title: FlowPilot Knowledgebase
 description: AI Workflow Automation Platform Documentation
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 
 
 url: "https://flowpilot.ai" # Placeholder URL
+
+plugins:
+  - jekyll-remote-theme
 
 # Theme Settings
 color_scheme: "light"
