@@ -1,0 +1,26 @@
+---
+layout: default
+title: Page Not Found
+permalink: /404.html
+nav_exclude: true
+---
+
+<div class="text-center py-6">
+  <h1 class="fs-9 mb-4">404</h1>
+  <h2 class="fs-6 mb-4">Page Not Found</h2>
+  
+  <p class="fs-4 mb-6">
+    Oops! The page you are looking for doesn't exist or has been moved.
+  </p>
+
+  <div class="d-flex justify-content-center">
+    <a href="{{ '/' | relative_url }}" class="btn btn-primary fs-5 mr-2">Go Home</a>
+    <a href="{{ '/docs/getting-started/' | relative_url }}" class="btn fs-5">Getting Started</a>
+  </div>
+</div>
+
+<style>
+.text-center { text-align: center; }
+.py-6 { padding-top: 4rem; padding-bottom: 4rem; }
+.mb-6 { margin-bottom: 3rem; }
+</style>
